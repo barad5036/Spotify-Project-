@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify.com</title>
+    <link rel="stylesheet" href="siddhu.css">
+    <script src = "siddhu.js"></script>
+</head>
+<body>
+    <div class="mainbody">
+        <div class="header">
+            <img src="imgs/main1.jpg" id="logo">
+            <div class="seahome">
+                <img src="imgs/icons8-home.svg" id="home">
+                <div class="search-container">
+                    <input type="text" placeholder="What do you want to play?" class="seabar">
+                    <img src="imgs/magnifying-glass-solid.svg" alt="Search" class="search-icon">
+                </div>
+            </div>
+            <div class="sl">
+                <a href="sign up/su.html" id="anchor">
+                    <h2 class="su">Sign up</h2>
+                </a>
+                <a href="login/login.html">
+                    <button class="btn">Log in</button>
+                </a>
+            </div>
+        </div>
+        <div class="mainboxes">
+            <div class="leftbox">
+                <!-- Content for leftbox can be added here -->
+                 <div class="libsec">
+                <img src = "imgs/library.jpeg" class = "lib">
+                <h1 class = "libtext">Your Library</h1>
+                </div>
+                <div class="asb">
+                    <img src = "imgs/siddhuimage.jpg" class = "as">
+                    <h1 class = "astext">Sidhu Moose Wala</h1>
+                </div> 
+                <div class="songs">
+                    <div class="tumse"> 
+                        <img src = "imgs/295.jpg" class = "dhoop">
+                        <h3 class = "tumse-text">295</h3>
+                        <button class="play-btn">▶</button> <!-- Play button -->
+                    </div>
+                    <div class="tumse">
+                        <img src = "imgs/dollar.jpg" class = "dhoop">
+                        <h3 class = "dollar-text">Dollar</h3>
+                        <button class="play-btn">▶</button> <!-- Play button -->
+                    </div>
+                    <div class="tumse">
+                        <img src = "imgs/samebeef.jpg" class = "dhoop">
+                        <h3 class = "a2-text">Same Beef</h3>
+                        <button class="play-btn">▶</button> <!-- Play button -->
+                    </div>
+                    <div class="tumse">
+                        <img src = "imgs/Dawood.jpg" class = "dhoop">
+                        <h3 class = "kabir-text">Dawood</h3>
+                        <button class="play-btn">▶</button> <!-- Play button -->
+                    </div>
+                    <div class="tumse">
+                        <img src = "imgs/outlaw.jpg" class = "dhoop">
+                        <h3 class = "tumse-text">Outlaw</h3>
+                        <button class="play-btn">▶</button> <!-- Play button -->
+                    </div>
+                    <div class="tumse">
+                        <img src = "imgs/lock.jpg" class = "dhoop">
+                        <h3 class = "raabta-text">Lock</h3>
+                        <button class="play-btn">▶</button> <!-- Play button -->
+                    </div>
+                    <div class="tumse">
+                        <img src = "imgs/drippy.jpg" class = "dhoop">
+                        <h3 class = "drippy-text">Drippy</h3>
+                        <button class="play-btn">▶</button> <!-- Play button -->
+                    </div>
+                
+                </div>
+            </div>
+            <div class="rightbox">
+                <!-- Content for rightbox can be added here -->
+                 <div class="asphoto">
+                    <div class="insideasphoto">
+                    <img src ="imgs/siddhu.jpg" class ="as-new">
+                </div>
+                 </div>
+                 <div class="below-asphoto"></div>
+                 <div class="music-bar">
+                    <img src="imgs/play-solid.svg" id="play-pause-btn" class="play-pause-btn" alt="Play/Pause">
+    <input type="range" id="progress-bar" class="progress-bar" value="0" min="0" max="100">
+    <audio id="audio-player" src=""></audio>
+                 </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
